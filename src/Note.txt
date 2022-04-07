@@ -1,0 +1,11 @@
+Main File -> BankSystem
+Client -> Menyimpan data client
+Account -> Menyimpan data client dengan tambahan ID dan Balance
+StrictAccount -> Sama seperti Account dengan perbedaan ada minimum balance.
+
+Class = Account, BankSystem, Client, StrictAccount
+
+Inheritance -> Account dan StrictAccount
+
+Composition -> Client dan Account karena Client menempel dengan Account dan jika Account dihapus, data clientnya juga dihapus.
+ArrayList -> Clients dan Accounts
